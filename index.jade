@@ -8,11 +8,25 @@ html
     title Sardar Pagri House
     link(type='text/css', rel='stylesheet', href='css/styles.css')
   body
-    h1 Jade - node template engine
-    #container.col
-      p You are amazing
-      p
-        | Jade is a terse and simple
-        | templating language with a
-        | strong focus on performance
-        | and powerful features.
+    .container-fluid.header-top-information-strip
+      .container
+        .col-md-6
+          ul.short-contact-information
+            li
+              span.icon-phone
+                | (564) 123 4567
+            li
+              span.icon-mail-alt
+                | mail.example.com
+        .col-md-6
+          ul.social-media-container
+            li
+              a.icon-facebook(href="#")
+            li
+              a.icon-twitter(href="#")
+            li
+              a.icon-gplus(href="#")
+            li
+              a.icon-pinterest(href="#")
+
+

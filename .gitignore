@@ -1,1 +1,4 @@
-.idea
+css/
+.idea/
+*.cfg
+*.html
