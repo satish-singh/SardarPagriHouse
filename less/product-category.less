@@ -1,0 +1,38 @@
+// Main product category section
+// Author: Satish Singh
+// Date: 9/27/2015
+
+.product-main-category{
+  margin-top: 46px;
+  ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    li{
+      width: 293px;
+      height: 150px;
+      border: 1px solid @main-product-category-border-color;
+      background-color: @secondary-bg-color;
+      .text-center;
+      margin-right: 15px;
+      margin-bottom: 15px;
+      position: relative;
+      float: left;
+      .product-information{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: @secondary-dark-bg-color;
+        .text-center;
+        color: @primary-font-color;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 11px;
+        padding-bottom: 11px;
+      }
+      &:nth-child(3){
+        margin-right: 0;
+      }
+    }
+  }
+}
